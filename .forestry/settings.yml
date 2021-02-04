@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: Alb.Design
 - type: document
   path: povesti**/*.md
   label: Poveste
-  match: "**/*"
 - type: directory
   path: journal
   label: Journal
@@ -15,8 +16,6 @@ sections:
   match: "**/*.md"
   templates:
   - journal
-- type: heading
-  label: BLA LABLA
 - type: directory
   path: projects
   label: Projects
