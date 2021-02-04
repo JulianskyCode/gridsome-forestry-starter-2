@@ -5,8 +5,6 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: heading
-  label: Heating
-- type: heading
   label: Alb.Design
 - type: document
   path: povesti**/*.md
