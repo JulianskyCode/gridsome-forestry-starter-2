@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Alb.Design
 - type: document
-  path: povesti**/*.md
+  path: povesti/**/*.md
   label: Poveste
 - type: directory
   path: projects
