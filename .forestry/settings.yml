@@ -7,13 +7,6 @@ sections:
 - type: heading
   label: Alb.Design
 - type: directory
-  path: projects
-  label: Projects
-  create: documents
-  match: "**/*.md"
-  templates:
-  - project
-- type: directory
   path: povesti
   label: Povesti
   create: documents
